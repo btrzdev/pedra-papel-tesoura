@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <title>Pedra, papel, tesoura</title>
+</head>
+<body>
+    <h1>pedra - papel - tesoura</h1>
+    <section class="items">        
+        <input type="image" src="images/pedra.png"value="Pedra"   id="pedra" class="btn">
+        <input type="image" src="images/papel.png"value="Papel"   id="papel" class="btn">
+        <input type="image" src="images/tesoura.png" value="Tesoura" id="tesoura" class="btn">
+    </section>
+    <p>Você escolheu:</p>
+    <span class="playerResult"></span>
+    <p> O computador escolheu:</p>
+    <span class="botResult"></span>
+    <div class="modal" id="modal">
+        <div class="modal-conteudo">
+          <span id="fechar-botao">&times;</span>
+          <h2 id="frase"class="victoryResult"><h2>
+        </div>
+      </div> 
+      <footer>Desenvolvido por: <a href="https://www.linkedin.com/in/beatriz-silva-dev/">Beatriz Silva</a></footer>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
